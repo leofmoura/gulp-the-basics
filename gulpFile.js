@@ -11,7 +11,7 @@ gulp.task('scripts', function() {
     var js = gulp.src('src/*.js');
 
     return es.merge(javaScriptFromCoffeeScript, js)
-        .pipe(concat('all.min.js'))
+        .pipe(concat('all_1.0.0.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist'));
 });
