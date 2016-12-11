@@ -24,5 +24,7 @@ race = (winner, runners...) ->
 # Existence:
 alert "I knew it!" if elvis?
 
+# modification / comment
+
 # Array comprehensions:
 cubes = (math.cube num for num in list)
